@@ -3,7 +3,7 @@ import datetime
 import pprint
 
 # criando client
-client = pyM.MongoClient('mongodb+srv://heitorcesarino:vkMqqY3uWAxP76Cs@cluster0.ktltw0y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+client = pyM.MongoClient()
 #setando db
 db = client.test
 #criando posts
